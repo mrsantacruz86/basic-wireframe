@@ -1,0 +1,58 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, footer{
+    text-align: center;
+    padding: 30px;
+    background: #ebebeb;
+    margin: 10px 0 10px 0;
+    /* width: 100%; */
+    
+
+}
+
+section{
+    /* display: inline-flex; */
+    background: #ebebeb;
+    width: 51%;
+    margin: 10px 10px 10px 0;
+    float: left;
+    min-height: 300px;
+    position: relative;
+    text-align: center;
+}
+
+aside{
+    text-align: center;
+    background: #ebebeb;
+    margin: 10px 0 20px 10px;
+    float: right;
+    width: 47%;
+    min-height: 300px;
+}
+
+article{
+    position: absolute;
+    background: #777777;
+    margin: 10px;
+    top: 10%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+
+}
+section p{
+    margin: 20px;
+}
+
+aside p{
+    margin: 20px;
+}
+
+.clear{
+    clear: both;
+}
